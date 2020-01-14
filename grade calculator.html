@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title> Grade Calculator </title>
+    <script src="calc.js"></script>
+    <link rel="stylesheet" href="CSS.css"/>
+
+
+</head>
+<center>
+    <h1>Grade Calculator</h1>
+</center>
+
+<body>
+
+<table id="gradeTable" border="1" cellpadding="4" cellspacing="1" >
+
+    <tr id="tits">
+        <th>Catagory</th>
+        <th>Grades</th>
+        <th>Weight(%)</th>
+    </tr>
+
+    <tr>
+        <td>Homework</td>
+        <td><input id="HomeWorkGrades" ></td>
+        <td><input id="HomeWorkWeight" ></td>
+    </tr>
+    <tr>
+
+        <td>Quizzes</td>
+        <td><input id="QuizGrades" ></td>
+        <td><input id="QuizWeight" ></td>
+    </tr>
+
+    <tr>
+        <td>Tests</td>
+        <td><input id="TestGrades" ></td>
+        <td><input id="TestWeight" ></td>
+    </tr>
+
+
+</table>
+
+<table id="finalTable" border="1" cellpadding="4" cellspacing="1" >
+
+    <tr id="finalTittles">
+        <th>Desired Grade in Class</th>
+        <th>Weight of Final(%)</th>
+    </tr>
+
+    <tr>
+        <td><input id="desiredGrade"></td>
+        <td><input id="weightOfFinal"></td>
+
+    </tr>
+
+
+</table>
+
+<center>
+    <button onclick="currentGrade()" id="startButton">Calculate My Current grade!</button>
+    <button onclick="newButton()" id="newButton">What do I need?</button>
+    <div id="myGrade" ></div>
+</center>
+
+
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
